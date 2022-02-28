@@ -1,0 +1,12 @@
+Node red automation explained
+
+Met een helper van home assistant start of stop ik de automatisering.
+Ald de automatisering aan staat begint deze  elke dag om 9.00.
+
+Tussen 9.00 a.m. en 13.15 kijkt hij naar de ombrengst van de zonnepanelen.
+Wordt er meer dan 600 w terug geleverd naar het stroom net dan start hij de afwasmachine en start daarna het progamma van de vaatwasser.
+na de trigger commando wordt de automatisering voor 5 uur geblokkeerd om te voorkomen als de vaatwasser voor 13.15 klaar is opnieuw wordt gestart.
+Om de triger block commanda op the heffen kan de helper een keer worden geschakeld.
+Als het programma klaar is geeft hij een text to speech commando naar google cast.
+Mocht er om 13.00 nog geen genoeg stroom zijn opgewekt dan start de automatisering .
+Na 13.15 stopt de automatisering.
