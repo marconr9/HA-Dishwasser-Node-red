@@ -14,4 +14,5 @@ What did I use for this?
 Node red,
 ,Home assistant
 ,Dishwasser (with home connect)
+Google cast
 
