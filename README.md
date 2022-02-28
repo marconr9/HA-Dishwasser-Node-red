@@ -11,7 +11,7 @@ If, for example, there is a holiday or a few days away, the automation should no
 
 What did I use for this?
 
-Node red
-Home assistant
-Dishwasser (with home connect)
+Node red,
+,Home assistant
+,Dishwasser (with home connect)
 
