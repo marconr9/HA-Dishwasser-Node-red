@@ -1,0 +1,12 @@
+Node red automation explained
+
+With a helper from home assistant I start or stop the automation.
+When the automation is on, it starts every day at 9.00 a.m.
+
+Between 9.00 a.m. and 1.15 p.m., it checks the output of the solar panels.
+If more than 600 w are returned to the grid, it starts the dishwasher and then the dishwasher programme.
+After the trigger command, the automation is blocked for 5 hours to prevent the dishwasher from starting again before 13:15.
+To override the trigger block command the helper can be switched once.
+When the program is finished he gives a text to speech command to google cast.
+If at 13.00 there is still not enough power generated then the automation starts .
+After 13.15 the automation stops.
